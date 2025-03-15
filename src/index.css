@@ -44,3 +44,9 @@ html {
 .btn:active {
   transform: scale(0.97);
 }
+
+@media (min-width: 1024px) {
+  .btn {
+    cursor: pointer;
+  }
+}

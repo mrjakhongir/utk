@@ -39,5 +39,11 @@
     background-color: transparent;
     transition: all 0.1s ease-in-out;
     border: none;
+
+    @media (min-width: 1024px) {
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }

@@ -109,6 +109,13 @@
       max-width: 552px;
     }
   }
+
+  @media (min-width: 1024px) {
+    .modal__button {
+      cursor: pointer;
+      background: #dc3131;
+    }
+  }
 }
 
 .showModal {
