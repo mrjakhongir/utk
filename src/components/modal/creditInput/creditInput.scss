@@ -1,0 +1,43 @@
+.credit-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2.4rem;
+
+  h2 {
+    font-family: "LabGrotesque-Medium";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #000;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  input {
+    font-family: "LabGrotesque-Regular";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid #bec5cc;
+    border-radius: 3px;
+  }
+
+  input::placeholder {
+    color: #bec5cc;
+  }
+
+  button {
+    align-self: flex-start;
+    font-family: "LabGrotesque-Medium";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #ea0029;
+    background-color: transparent;
+    transition: all 0.1s ease-in-out;
+    border: none;
+  }
+}
