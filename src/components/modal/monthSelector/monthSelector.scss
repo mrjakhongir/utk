@@ -1,0 +1,36 @@
+.month-selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  .months-wrapper {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  .month {
+    width: 40px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "LabGrotesque-Regular";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    border: none;
+    border-radius: 50%;
+    background: #eef0f2;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .month:active {
+    transform: scale(0.97);
+  }
+
+  .activeMonth {
+    background-image: linear-gradient(to top right, #ff4f4f 0%, #dc3131 100%);
+    color: #fff;
+  }
+}
