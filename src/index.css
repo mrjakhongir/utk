@@ -18,3 +18,29 @@ html {
   font-family: "LabGrotesque-Regular";
   src: url("assets/fonts/LabGrotesque-Regular.ttf") format("truetype");
 }
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.btn {
+  font-family: "LabGrotesque-Regular";
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.btnActive {
+  background-image: linear-gradient(to top right, #ff4f4f 0%, #dc3131 100%);
+  color: #fff;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}

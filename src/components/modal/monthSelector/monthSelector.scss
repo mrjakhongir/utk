@@ -34,4 +34,11 @@
     background-image: linear-gradient(to top right, #ff4f4f 0%, #dc3131 100%);
     color: #fff;
   }
+
+  @media (min-width: 540px) {
+    flex-direction: row;
+    align-items: center;
+    gap: 3.8rem;
+    margin-bottom: 1.8rem;
+  }
 }

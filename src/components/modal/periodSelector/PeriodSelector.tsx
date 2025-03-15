@@ -2,6 +2,7 @@ import { Data } from "..";
 import ModalSubtitle from "../modalSubtitle/ModalSubtitle";
 import clsx from "clsx";
 import "./periodSelector.scss";
+import TotalSum from "./totalSum/TotalSum";
 
 const periods = ["в год", "в месяц"];
 
@@ -32,6 +33,7 @@ const PeriodSelector: React.FC<PeriodSelectorProps> = ({ data, setData }) => {
           </button>
         ))}
       </div>
+      <TotalSum data={data} />
     </div>
   );
 };
