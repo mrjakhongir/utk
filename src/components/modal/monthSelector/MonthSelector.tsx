@@ -14,11 +14,11 @@ const MonthSelector: React.FC<MonthSelectorProps> = ({ data, setData }) => {
   return (
     <div className='month-selectors'>
       <ModalSubtitle title='Количество месяцев?' />
-      <div className='months-wrapper'>
+      <div className='btn-wrapper'>
         {months.map((month) => (
           <button
             key={month}
-            className={clsx("month", { activeMonth: month === data.month })}
+            className={clsx("btn", { btnActive: month === data.month })}
             onClick={() =>
               setData((prevData) => ({ ...prevData, month: month }))
             }
